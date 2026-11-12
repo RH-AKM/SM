@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ----- En-tête ----- */
+header {
+  background: #0f766e;
+  color: #fff;
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+}
+
+header p:first-child {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #99f6e4;
+}
+
+header h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 0.5rem;
+}
+
+header p:last-child {
+  font-size: 1.125rem;
+  color: #ccfbf1;
+  margin-top: 0.75rem;
+}
+
+/* ----- Navigation ----- */
+nav {
+  background: #0f172a;
+  text-align: center;
+  font-size: 0.875rem;
+  padding: 0.75rem 0;
+}
+
+nav a {
+  margin: 0 0.75rem;
+  color: #cbd5e1;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a.actif {
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: #2dd4bf;
+  text-underline-offset: 4px;
+}
+
+/* ----- Contenu principal ----- */
+main {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f766e;
+}
+
+main section + section {
+  margin-top: 2rem;
+}
+
+/* Paragraphe « À propos » */
+main section:first-child p {
+  margin-top: 0.5rem;
+  text-align: justify;
+  line-height: 1.625;
+  color: #334155;
+}
+
+/* Liste du programme */
+ul {
+  margin-top: 0.75rem;
+}
+
+li {
+  background: #fff;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+}
+
+li + li {
+  margin-top: 0.5rem;
+}
+
+li strong {
+  font-weight: 700;
+  color: #0f766e;
+}
+
+/* Encadré d'information */
+aside {
+  margin-top: 2rem;
+  background: #fef3c7;
+  color: #78350f;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+}
+
+/* Bloc tarif + bouton */
+main section:last-child {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+main section:last-child p {
+  font-size: 1.25rem;
+}
+
+s {
+  text-decoration: line-through;
+  color: #94a3b8;
+}
+
+main section:last-child strong {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #e11d48;
+}
+
+main section:last-child a {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #0f766e;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+main section:last-child a:hover {
+  background: #115e59;
+}
+
+/* ----- Pied de page ----- */
+footer {
+  background: #e2e8f0;
+  padding: 1rem;
+  text-align: right;
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+footer a {
+  text-decoration: underline;
+}
